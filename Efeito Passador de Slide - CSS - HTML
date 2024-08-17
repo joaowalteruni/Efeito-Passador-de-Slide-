@@ -1,0 +1,56 @@
+<div class="slideshow">
+    <a href="seu-link1">
+        <img src="imagem1.jpg" alt="Imagem 1">
+    </a>
+    <a href="seu-link2">
+        <img src="imagem2.jpg" alt="Imagem 2">
+    </a>
+    <a href="seu-link3">
+        <img src="imagem3.jpg" alt="Imagem 3">
+    </a>
+
+
+<style>
+
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  animation: fade 3s infinite;
+}
+
+.slideshow a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  53% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+<style>
+</div>
